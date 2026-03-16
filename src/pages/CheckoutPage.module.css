@@ -1,0 +1,17 @@
+.page { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; min-height: calc(100vh - 58px); }
+.title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; margin-bottom: 0.3rem; }
+.sub { color: #888; font-size: 0.88rem; margin-bottom: 2rem; }
+.block { background: #fff; border-radius: 16px; padding: 1.5rem; margin-bottom: 1rem; }
+.block h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; }
+.block p { font-size: 0.9rem; color: #555; margin-bottom: 4px; }
+.typeBtns { display: flex; gap: 10px; }
+.typeBtn { flex: 1; padding: 14px; border: 1.5px solid #e8ddd0; border-radius: 10px; font-size: 0.93rem; background: #fff; }
+.typeActive { flex: 1; padding: 14px; border: none; border-radius: 10px; font-size: 0.93rem; background: #1a1209; color: #fff; font-weight: 600; }
+.field { margin-bottom: 1rem; }
+.field label { display: block; font-size: 0.73rem; font-weight: 700; letter-spacing: 0.5px; color: #888; margin-bottom: 6px; }
+.field input, .field textarea { width: 100%; padding: 12px 14px; border: 1.5px solid #e8ddd0; border-radius: 10px; font-size: 0.93rem; font-family: inherit; resize: vertical; }
+.orderRow { display: flex; justify-content: space-between; padding: 6px 0; font-size: 0.9rem; color: #444; border-bottom: 1px solid #f0e8df; }
+.orderTotal { display: flex; justify-content: space-between; font-size: 1.05rem; font-weight: 700; padding-top: 10px; margin-top: 6px; }
+.orderTotal span:last-child { color: #b8860b; }
+.confirm { width: 100%; padding: 16px; background: #b8860b; color: #fff; border-radius: 10px; font-size: 1rem; font-weight: 600; margin-top: 0.5rem; }
+.confirm:hover { background: #d4a017; }

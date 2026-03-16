@@ -1,0 +1,20 @@
+.hero {
+  background: #2c1a0e;
+  min-height: calc(100vh - 58px);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 4rem 2rem; color: #fff;
+}
+.tag { letter-spacing: 4px; font-size: 0.75rem; color: #888; text-transform: uppercase; margin-bottom: 1.5rem; }
+.title { font-family: 'Playfair Display', serif; font-size: clamp(2.8rem, 7vw, 4.5rem); font-weight: 700; line-height: 1.15; color: #fff; margin-bottom: 1.2rem; }
+.gold { color: #b8860b; }
+.sub { color: #aaa; font-size: 0.95rem; line-height: 1.7; margin-bottom: 2.5rem; }
+.btns { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+.btnPrimary { background: #b8860b; color: #fff; padding: 14px 36px; border-radius: 8px; font-size: 1rem; font-weight: 600; }
+.btnPrimary:hover { background: #d4a017; }
+.btnSecondary { background: transparent; border: 2px solid rgba(255,255,255,0.3); color: #fff; padding: 14px 36px; border-radius: 8px; font-size: 1rem; }
+.btnSecondary:hover { border-color: rgba(255,255,255,0.7); }
+.stats { background: #fff; padding: 3rem 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 2rem; max-width: 900px; margin: 0 auto; }
+.statItem { text-align: center; }
+.statIcon { font-size: 2.5rem; margin-bottom: 0.7rem; }
+.statVal { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; }
+.statSub { font-size: 0.82rem; color: #888; }

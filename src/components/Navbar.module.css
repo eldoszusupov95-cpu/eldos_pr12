@@ -1,0 +1,45 @@
+.nav {
+  background: #2c1a0e;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo { text-decoration: none; font-family: 'Playfair Display', serif; font-size: 1.15rem; }
+.logoB { color: #fff; font-weight: 700; }
+.logoR { color: #b8860b; font-weight: 700; }
+.links { display: flex; gap: 1.5rem; }
+.links a { color: #ccc; text-decoration: none; font-size: 0.9rem; transition: color 0.15s; }
+.links a:hover { color: #fff; }
+.actions { display: flex; align-items: center; gap: 0.8rem; }
+.cartBtn {
+  background: #b8860b; color: #fff; padding: 7px 16px;
+  border-radius: 20px; font-size: 0.85rem; font-weight: 600;
+  display: flex; align-items: center; gap: 6px;
+}
+.cartBtn:hover { background: #d4a017; }
+.badge {
+  background: #fff; color: #b8860b; border-radius: 50%;
+  width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
+  font-size: 0.72rem; font-weight: 700;
+}
+.user { color: #ccc; font-size: 0.85rem; }
+.loginBtn {
+  color: #fff; border: 1.5px solid #555; padding: 6px 16px;
+  border-radius: 8px; font-size: 0.85rem; text-decoration: none;
+}
+.loginBtn:hover { border-color: #aaa; }
+.regBtn {
+  background: #b8860b; color: #fff; padding: 7px 16px;
+  border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none;
+}
+.regBtn:hover { background: #d4a017; }
+.logoutBtn {
+  background: transparent; border: 1.5px solid #555; color: #fff;
+  padding: 6px 14px; border-radius: 8px; font-size: 0.85rem;
+}
+.logoutBtn:hover { border-color: #aaa; }

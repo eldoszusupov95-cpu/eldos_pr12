@@ -1,0 +1,13 @@
+.page { min-height: calc(100vh - 58px); display: flex; align-items: center; justify-content: center; padding: 2rem; background: #faf6f0; }
+.card { background: #fff; border-radius: 20px; padding: 2.5rem 2rem; width: 100%; max-width: 420px; box-shadow: 0 4px 28px rgba(0,0,0,0.08); text-align: center; }
+.icon { font-size: 2.5rem; margin-bottom: 0.8rem; }
+.card h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; margin-bottom: 0.3rem; }
+.sub { color: #888; font-size: 0.88rem; margin-bottom: 1.8rem; }
+.err { background: #fce4ec; color: #c62828; font-size: 0.85rem; padding: 8px 12px; border-radius: 8px; margin-bottom: 1rem; text-align: left; }
+.field { margin-bottom: 1rem; text-align: left; }
+.field label { display: block; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px; color: #555; margin-bottom: 6px; }
+.field input { width: 100%; padding: 12px 14px; border: 1.5px solid #e8ddd0; border-radius: 10px; font-size: 0.93rem; }
+.btn { width: 100%; padding: 14px; background: #1a1209; color: #fff; border-radius: 10px; font-size: 0.97rem; font-weight: 600; margin-top: 0.5rem; }
+.btn:hover { background: #2c1a0e; }
+.switch { margin-top: 1.2rem; font-size: 0.85rem; color: #888; }
+.switch a { color: #b8860b; font-weight: 600; text-decoration: none; }
